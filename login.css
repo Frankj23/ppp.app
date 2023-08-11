@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+}
+.box{
+    width: 600px;
+    height: 80%;
+    background: linear-gradient(red, blue);
+    border-radius: 0px 50px 0px 50px;
+    flex-direction: column;
+    display: block;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 350px;
+}
+h1{
+    text-align: center;
+    font-weight:600;
+    color: aliceblue;
+}
+.input_section{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-left: 60px;
+}
+.input_section input{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.input_section p{
+    color: white;
+}
+.input_section #account{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+#sign{
+    color: white;
+    
+}
+.button{
+    width: 100%;
+}
+.button button{
+    margin-top: 40px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: unset;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 16px;
+    font-family: poppins regular;
+}
+.button #account{
+    margin-top: 10px;
+    text-align: center;
+}
+#account #sign:hover{
+    color: red;
+    cursor: pointer;
+}
